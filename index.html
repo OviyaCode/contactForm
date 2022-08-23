@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="contact">
+        <div class="container">
+            <div class="head">
+                <h2 class="center-text">Ping me</h2>
+            <p class="center-text">Feel free to contact me</p>
+            </div>
+            <form action="https://formspree.io/f/meqdoejk" method="POST">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="email">Your email:</label>
+                        </td>
+                        <td><input type="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="message">Your message:</label>
+                        </td>
+                        <td><textarea name="message"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button type="submit" class="btn-send">Send</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
+=======
+</head>
+
+<body>
+    <form action="https://formspree.io/f/meqdoejk" method="POST">
+        <label>
+            Your email:
+            <input type="email" name="email">
+        </label>
+        <label>
+            Your message:
+            <textarea name="message"></textarea>
+        </label>
+        <button type="submit">Send</button>
+    </form>
+</body>
+
+</html>
+>>>>>>> 5f876c4b1bcbce2923dd3665a63dca2f2c9949cb
